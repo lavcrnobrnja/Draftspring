@@ -24,10 +24,11 @@ The app has two parts:
 - `backend/` — FastAPI API, SQLite persistence, Ghost publishing integration, LLM pipeline, worker process, email, Stripe billing hooks.
 - `frontend/` — React/Vite dashboard for login, settings, article batches, review workflows, usage, and admin screens.
 
-## What this repo is not
+## Project status
 
-- It is not the old DraftSpring hosted SaaS.
-- You are responsible for deployment, security, billing configuration, and model/API costs.
+DraftSpring is open source. The hosted SaaS experiment is retired; this repo is the app source for teams who want to run or adapt the publishing workflow themselves.
+
+You are responsible for deployment, security, billing configuration, and model/API costs.
 
 ## Quick start
 
