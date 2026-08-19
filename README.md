@@ -27,9 +27,7 @@ The app has two parts:
 ## What this repo is not
 
 - It is not the old DraftSpring hosted SaaS.
-- It does not include our production secrets, databases, customer data, Ghost configs, server configs, or private runtime files.
-- It does not include the old DraftSpring marketing Ghost theme. This repo is about the app.
-- It is provided as source code. You are responsible for deployment, security, billing configuration, and model/API costs.
+- You are responsible for deployment, security, billing configuration, and model/API costs.
 
 ## Quick start
 

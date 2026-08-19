@@ -36,9 +36,9 @@ backend/app/services/ghost.py
 backend/app/pipeline/transitions/t11_publishing.py
 ```
 
-## What is not included
+## Theme
 
-This repo does not include a Ghost theme. Use your existing Ghost theme. DraftSpring is the publishing automation layer, not the public blog design.
+Use your existing Ghost theme. DraftSpring is the publishing automation layer, not the public blog design.
 
 ## Safety tips
 
