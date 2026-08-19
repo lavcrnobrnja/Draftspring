@@ -1,0 +1,14 @@
+[Unit]
+Description=DraftSpring API
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/draftspring/backend
+EnvironmentFile=/opt/draftspring/backend/.env
+ExecStart=/opt/draftspring/backend/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8223
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

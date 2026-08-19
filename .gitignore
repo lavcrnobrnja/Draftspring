@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+config.production.json
+
+# Databases / runtime state
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+data/
+storage/
+uploads/
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+.npm/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
